@@ -58,14 +58,139 @@ html{
   /* box-shadow: inset 0 0 20PX rgba(0, 0, 0, 0.384); */
 }
 
-.card-container .card > .card-pic
+.card-container .card > .img1
 {
+  background-image: url(ngor.jpg);
   height: 14rem;
   width: 14rem;
   border-radius: 50%;
-  background-color: rgb(6, 0, 22);
+  /* background-color: rgb(6, 0, 22); */
   position: absolute;
   margin-top: -6rem;
+  background-position: center;
+  background-size: cover;
+}
+.card-container .card > .img2
+{
+  background-image: url(shaddy.jpg);
+  height: 14rem;
+  width: 14rem;
+  border-radius: 50%;
+  /* background-color: rgb(6, 0, 22); */
+  position: absolute;
+  margin-top: -6rem;
+  background-position: center;
+  background-size: cover;
+}.card-container .card > .img3
+{
+  background-image: url(achieng.jpg);
+  height: 14rem;
+  width: 14rem;
+  border-radius: 50%;
+  /* background-color: rgb(6, 0, 22); */
+  position: absolute;
+  margin-top: -6rem;
+  background-position: center;
+  background-size: cover;
+}.card-container .card > .img4
+{
+  background-image: url(falastin.jpg);
+  height: 14rem;
+  width: 14rem;
+  border-radius: 50%;
+  /* background-color: rgb(6, 0, 22); */
+  position: absolute;
+  margin-top: -6rem;
+  background-position: center;
+  background-size: cover;
+}.card-container .card > .img5
+{
+  background-image: url(Minza.jpg);
+  height: 14rem;
+  width: 14rem;
+  border-radius: 50%;
+  /* background-color: rgb(6, 0, 22); */
+  position: absolute;
+  margin-top: -6rem;
+  background-position: center;
+  background-size: cover;
+}.card-container .card > .img6
+{
+  background-image: url(dino.jpg);
+  height: 14rem;
+  width: 14rem;
+  border-radius: 50%;
+  /* background-color: rgb(6, 0, 22); */
+  position: absolute;
+  margin-top: -6rem;
+  background-position: center;
+  background-size: cover;
+}.card-container .card > .img7
+{
+  background-image: url(chris.jpg);
+  height: 14rem;
+  width: 14rem;
+  border-radius: 50%;
+  /* background-color: rgb(6, 0, 22); */
+  position: absolute;
+  margin-top: -6rem;
+  background-position: center;
+  background-size: cover;
+}.card-container .card > .img8
+{
+  background-image: url(deo.jpg);
+  height: 14rem;
+  width: 14rem;
+  border-radius: 50%;
+  /* background-color: rgb(6, 0, 22); */
+  position: absolute;
+  margin-top: -6rem;
+  background-position: center;
+  background-size: cover;
+}.card-container .card > .img9
+{
+  background-image: url(manyang.jpg);
+  height: 14rem;
+  width: 14rem;
+  border-radius: 50%;
+  /* background-color: rgb(6, 0, 22); */
+  position: absolute;
+  margin-top: -6rem;
+  background-position: center;
+  background-size: cover;
+}.card-container .card > .img10
+{
+  background-image: url(ring.jpg);
+  height: 14rem;
+  width: 14rem;
+  border-radius: 50%;
+  /* background-color: rgb(6, 0, 22); */
+  position: absolute;
+  margin-top: -6rem;
+  background-position: center;
+  background-size: cover;
+}.card-container .card > .img11
+{
+  background-image: url(jok.jpg);
+  height: 14rem;
+  width: 14rem;
+  border-radius: 50%;
+  /* background-color: rgb(6, 0, 22); */
+  position: absolute;
+  margin-top: -6rem;
+  background-position: center;
+  background-size: cover;
+}.card-container .card > .img12
+{
+  background-image: url(monny.jpg);
+  height: 14rem;
+  width: 14rem;
+  border-radius: 50%;
+  /* background-color: rgb(6, 0, 22); */
+  position: absolute;
+  margin-top: -6rem;
+  background-position: center;
+  background-size: cover;
 }
 
 .card .card-title

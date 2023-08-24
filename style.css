@@ -264,59 +264,85 @@ a{
 
 /* Services Section */
 #services .services{
-  flex-direction: column;
-  text-align: center;
-  max-width: 1500px;
-  margin: 0 auto;
-  padding: 100px 0;
-}
-#services .service-top{
-  width: 500px;
-  max-width: 0 auto;
-}
-#services .section-title{
-  font-size: 4rem;
-  font-weight: 300px;
-  color: #1F51FF;
-  margin-bottom: 10px;
-  text-transform: uppercase;
-  letter-spacing: .2rem;
-  text-align: center;
-} 
-#service .section-top p{
-  font-size: 1.4rem;
-  margin-top: 5px;
-  line-height: 2.5rem;
-  font-weight: 300px;
-  letter-spacing: .05rem;
-}
-#services .service-bottom{
+  height: 50rem;
+  width: 100%;
+  background-color: rgb(194, 194, 194);
   display: flex;
-  align-items: center;
+}
+
+#services .about-content
+{
+  width: 50%;
+  height: 100%;
+  /* background-color: #1F51FF; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 0 0 0 15rem;
+}
+#services .about-content h1
+{
+  font-size: 8rem;
+}
+#services .about-content p
+{
+  font-size: 1.3rem;
+  line-height: 19px;
+  margin: -2rem 0 0 0;
+}
+
+#services .about-content .btn
+{
+  height: 6rem;
+  width: 14rem;
+  text-decoration: none;
+  background-color: #29323c;
+  text-align: center;
+  color: white;
+  font-size: 1.5rem;
+  padding: 20px 0;
+  transition: .3s ease-in;
+}
+#services .about-content .btn:hover
+{
+  background-color: aliceblue;
+  color: black;
+}
+
+#services .about-pic-container
+{
+  /* background-color: aqua; */
+  height: 100%;
+  width: 50%;
+  display: flex;
   justify-content: center;
-  flex-wrap: wrap;
+  align-items: center;
+}
+
+#services .about-pic
+{
+  height: 38rem;
+  width: 38rem;
+  background-color: #29323c;
 }
 /* End About Us Section */
 
-.P{
-  font-size: 30px;
-  
-}
-.V{
-  font-size: 15px;
-  text-align: 10px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  padding: 0 40px;
-  line-height: 26px;
-}
-.section-title{
-  font-size: 35px;
-  margin-top: 10px;
-  text-decoration: center;
-}
 
-/* End Section */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* projects section */
 #projects .projects{
   flex-direction: column;
