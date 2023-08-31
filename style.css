@@ -376,7 +376,7 @@ a{
 .dot {
   height: 15px;
   width: 15px;
-  margin: 0 2px;
+  margin: 3rem 2px;
   background-color: #bbb;
   border-radius: 50%;
   display: inline-block;
@@ -408,16 +408,16 @@ a{
 
 /* projects section */
 #projects .projects{
+  display: flex;
   flex-direction: column;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 100px 0;
-  margin-top: 20px ;
-  margin-bottom: 20px;
+  padding: 40px 0;
   color: #1F51FF;
+  /* background-color: aquamarine; */
 }
-#projects .projects-header h1{
-  margin-bottom: 50px;
+#projects .section-title{
+  margin: 2rem 0 5rem 0;
 }
 #projects .all-projects {
   display: flex;
