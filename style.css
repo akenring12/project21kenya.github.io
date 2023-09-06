@@ -263,12 +263,20 @@ a{
   color: white;
   background-color: #1F51FF;
 }
+.container > hr
+{
+  border-color: blue;
+  margin: 58rem 0 0 -25rem;
+  position: absolute;
+  width: 110rem;
+  z-index: 2;
+}
 
 /* Services Section */
 #services .services{
   height: 60rem;
   width: 100%;
-  background-color: rgb(194, 194, 194);
+  background-color: white;
   display: flex;
 }
 
@@ -346,6 +354,7 @@ a{
   height: 60rem;
   position: relative;
   margin: auto;
+  color: #bbb  ;
   /* background-color: #29323c; */
 }
 .slideshow-container .mySlides{
